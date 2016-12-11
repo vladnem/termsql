@@ -1,4 +1,4 @@
-## SQL statements on tabular data
+## CLI SQL statements on tabular data
 
 More about termsql: https://tobimensch.github.io/termsql/
 
@@ -9,5 +9,5 @@ ps aux | docker run --rm -i vladnem/termsql -m -1 "select USER,COUNT(*) from tbl
 
 ### Help
 ```
-docker run --rm vladnem/termsql"
+docker run --rm vladnem/termsql
 ```
