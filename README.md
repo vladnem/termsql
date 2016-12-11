@@ -2,12 +2,12 @@
 
 More about termsql: https://tobimensch.github.io/termsql/
 
-# Running query
+### Running query
 ```
 ps aux | docker run --rm -i vladnem/termsql -m -1 "select USER,COUNT(*) from tbl group by USER limit 10;"
 ```
 
-# Help
+### Help
 ```
 docker run --rm vladnem/termsql"
 ```
